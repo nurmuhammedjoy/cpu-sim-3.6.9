@@ -54,3 +54,16 @@ cpusim
 ```
 
 🎉 CPU Sim 3.6.9 will open!
+
+# 🛠 CPU Sim 4.0.11 JavaFX Dependency Issue
+
+## What’s the problem?
+
+When trying to launch CPU Sim 4.0.11 with OpenJDK 11+ or 17, users encounter this error:
+
+```java
+Exception in thread "main" java.lang.NoClassDefFoundError: javafx/application/Application
+    at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+    at java.base/java.lang.ClassLoader.defineClass(...)  
+    at cpusim.Main.main(Main.java:73)
+Caused by: java.lang.ClassNotFoundException: javafx.application.Application
