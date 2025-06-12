@@ -28,9 +28,9 @@ Paste this into the file:
 
 ```sh
 #!/data/data/com.termux/files/usr/bin/sh
-java -cp ~/cpusim/CPUSim3.6.9/CPUSim3.6.jar:\
-~/cpusim/CPUSim3.6.9/jhall.jar:\
-~/cpusim/CPUSim3.6.9/CPUSimHelp3.6.jar cpusim.Main
+java -cp ~/cpu-sim-3.6.9/CPUSim3.6.jar:\
+~/cpu-sim-3.6.9/jhall.jar:\
+~/cpu-sim-3.6.9/CPUSimHelp3.6.jar cpusim.Main
 ```
 
 Save the file: `Ctrl + O`, `Enter`, then exit with `Ctrl + X`
