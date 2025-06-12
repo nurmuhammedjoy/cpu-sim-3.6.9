@@ -10,7 +10,7 @@
 ## 📦 Step 1: download the files form my git
 
 ```bash
-~/cpusim/CPUSim3.6.9/
+gh repo clone nurmuhammedjoy/cpu-sim-3.6.9
 ```
 
 ---
